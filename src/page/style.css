@@ -1,0 +1,29 @@
+@font-face {
+    font-family: titleFont;
+    src: url(../../public/gameXucXac/Pony.ttf);
+}
+
+* {
+    font-family: titleFont;
+}
+
+.title,.result {
+    letter-spacing: 5px;
+    /* text-align: center; */
+}
+
+.App {
+    background: url(../../public/gameXucXac/bgGame.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.button {
+    font-family: titleFont;
+    letter-spacing: 3px;
+}
+
+.imgXucXac {
+    width: 100px;
+    height: 100px;
+}
